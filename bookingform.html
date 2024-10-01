@@ -9,14 +9,13 @@
 </head>
 <body>
     
-
     <!-- Booking Form -->
 <section id="booking" class="container">
     <header>
         <h2>Book Your Vehicle</h2>
         <p>Please fill out the form below to book your vehicle.</p>
     </header>
-    <form action="/submit-booking" method="post">
+    <form action="https://formspree.io/f/mnnaelle" method="POST">
         <div class="form-group">
             <label for="full-name">Full Name:</label>
             <input type="text" id="full-name" name="full-name" required>
@@ -60,7 +59,7 @@
         </div>
 
         <div class="form-group">
-            <a href="mailto:malapskopi@gmail.com" class="button">Submit Booking</a>
+            <button type="submit" class="button">Submit Booking</button>
         </div>
     </form>
 </section>
